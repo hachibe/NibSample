@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NibSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJZ-UZ-kce" customClass="HogeView" customModule="NibSample" customModuleProvider="target">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Qb6-fw-RKE"/>
+                                    <constraint firstAttribute="width" constant="240" id="tNW-MJ-Qws"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RJZ-UZ-kce" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="L37-cP-9dN"/>
+                            <constraint firstItem="RJZ-UZ-kce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ztf-Ia-W5h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="91"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="awi-iE-BJU">
+            <objects>
+                <viewController id="OeB-9z-JhX" customClass="ViewController" customModule="NibSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nsg-99-sIc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ONO-Cl-TGq">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2ha-Qb-3uh"/>
+                                    <constraint firstAttribute="height" constant="128" id="Ivd-Y1-dZT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ONO-Cl-TGq" firstAttribute="centerX" secondItem="Nsg-99-sIc" secondAttribute="centerX" id="1bG-rP-wOx"/>
+                            <constraint firstItem="ONO-Cl-TGq" firstAttribute="centerY" secondItem="Nsg-99-sIc" secondAttribute="centerY" id="6EJ-pY-bsV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FOm-oG-HFU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDb-8G-nvi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="92"/>
+        </scene>
+    </scenes>
+</document>
